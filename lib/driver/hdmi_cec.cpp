@@ -516,6 +516,9 @@ long eHdmiCEC::translateKey(unsigned char code)
 		case 0x74:
 			key = 0x190;
 			break;
+		case 0x35:     /* Display Information */
+			key = 0x189;
+			break;
 		default:
 			key = 0x8b;
 			break;
